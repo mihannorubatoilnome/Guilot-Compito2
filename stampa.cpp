@@ -2,18 +2,20 @@
 Scrivere un programma che stampi "n" volte la stringa "Bada come la fuma"  con "n" dato in input dall'utente.
 
 NOME COGNOME DATA
-*/
+Edmard Guilot 03/03/2022                   */
 
 # include <iostream>
+
 using namespace std;
+
 int main()
 {
-  int i=10 ,n;
-  cout<<"Quante volte voi stampare la frase? ";
+  int n = 0;
+  cout<<"Quante volte vuoi stampare la frase? : ";
   cin>>n;
-  while (i<n)
+
+  for (int i = 0; i < n; i++)
   {
-   cout<<"Bada come la fuma"<<endl; 
+   cout<<"Bada come la fuma\n"<<endl; 
   }
-  system("pause");
-}
+} 
