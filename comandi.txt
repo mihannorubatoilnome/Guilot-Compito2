@@ -1,0 +1,30 @@
+   49  git merge newFeature-Navbar 
+   50  git status
+   51  git add -A
+   52  git commit -m "Merge-Conflict"
+   53  git branch
+   54  help
+   55  git push origin master
+   56  git log
+   57  cd .
+   58  cd ..
+   59  mkdir Guilot-Compito2
+   60  cd Guilot-Compito2
+   61  git init
+   62  git clone https://github.com/sena-meucci/progettoStampa.git
+   63  ls
+   64  cd progettoStampa/
+   65  ls
+   66  nano stampa.cpp
+   67  git  add -A
+   68  git  commit -m "inserito nome"
+   69  git branch BugFix
+   70  git checkout  BugFix
+   71  nano stampa.cpp 
+   72  git add -A
+   73  git commit -m "Errore risolto in stampa"
+   74  git checkout master
+   75  git merge BugFix 
+   76  nano stampa.cpp 
+   77  git branch -d BugFix
+   78  history 30 > comandi.txt
